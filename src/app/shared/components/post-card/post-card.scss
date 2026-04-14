@@ -1,8 +1,14 @@
 mat-card{
     background-color: rgb(250, 210, 223);
+    transition: all 0.3s ease;
 }
 
 mat-card-content{
     height: 90px;
 
 }
+
+mat-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0,0.2);
+} 
