@@ -1,6 +1,6 @@
-<mat-card class="h-100">
+<mat-card class="h-100 justify-content-between">
     <mat-card-header> 
-        <mat-card-title>
+        <mat-card-title >
             {{postObj.title}}
         </mat-card-title>
     </mat-card-header>
@@ -10,7 +10,12 @@
         </p>
     </mat-card-content>
     <mat-card-actions >
-       <button [routerLink]="[postObj.id]" matButton="elevated">View More...</button>
+       <button class="w-100" [routerLink]="['/posts',postObj.id]"
+       matButton="elevated">View More...</button>
     </mat-card-actions>
 </mat-card>
 
+<!-- [routerLink]="[postObj.id]" weuse property binding bcoz params(id) comes from
+ property click on view moe button it will moves to details comp so that need id-->
+<!-- [routerLink]="[postObj.id]" >> relative path we can aslo use absolute path
+ [routerLink]="['/posts',postObj.id]-->

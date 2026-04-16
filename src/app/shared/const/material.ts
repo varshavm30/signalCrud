@@ -5,7 +5,8 @@ import { MatToolbarModule} from "@angular/material/toolbar";
 import {MatSidenavModule} from "@angular/material/sidenav"
 import {MatSnackBarModule} from "@angular/material/snack-bar"
 import {MatListModule} from '@angular/material/list';
-
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatTooltipModule} from '@angular/material/tooltip'
 
 export const MATERIAL_IMPORTS = [
 MatButtonModule,
@@ -14,7 +15,9 @@ MatButtonModule,
  MatToolbarModule,
  MatSidenavModule,
  MatSnackBarModule,
- MatListModule
+ MatListModule,
+ MatProgressSpinnerModule,
+ MatTooltipModule
 ]
 
 

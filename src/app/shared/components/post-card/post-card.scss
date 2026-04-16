@@ -1,14 +1,15 @@
 mat-card{
     background-color: rgb(250, 210, 223);
     transition: all 0.3s ease;
+    color: black;
 }
 
-mat-card-content{
-    height: 90px;
+// mat-card-content{
+//     height: 90px;
 
-}
+// }iff gving h 100 that content so card moves downword nd buttonis at lower side
 
 mat-card:hover{
     transform: translateY(-8px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0,0.2);
+    box-shadow: 0 10px 25px rgba(5, 148, 195, 0.2)
 } 
